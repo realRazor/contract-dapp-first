@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background:fixed;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.input{
+  border:none;
+  transform: translateX(10px);
+  border-radius: 30px;
+  background-color: rgb(196, 32, 218);
+  color:rgb(255, 255, 255);
+  font-size: large;
+  font-weight: 200;
+}
+.button{
+  border: none;
+  transform: translateY(10px);
+  border-radius: 15px;
+  background-color: rgb(189, 207, 20);
+  width: 22%;
+  height: 25px;
+  font-size: large;
+  font-family:fantasy;
+}
+.button:hover{
+  scale:1.01;
+}
+.button:active{
+  scale: 0.999;
+}
+.getEvent{
+  border: none;
+  border-radius: 15px;
+  background-color: rgb(177, 32, 206);
+  width: 20%;
+  transform: translateY(20px);
+  font-size: large;
+  font-family:fantasy;
+  
+}
+.getEvent:hover{
+  scale:1.03;
+  
+}
+.getEvent:active{
+  scale: 0.9999;
+}
+
